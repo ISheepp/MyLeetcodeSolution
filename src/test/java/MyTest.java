@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -40,5 +42,23 @@ public class MyTest {
         } else {
             System.out.println("NO MATCH");
         }
+    }
+
+    @Test
+    public void test3(){
+        //iterator
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("name");
+        list.add("age");
+        list.add("hobby");
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
+    }
+
+    @Test
+    public void test4(){
+        //lambda表达式
     }
 }
