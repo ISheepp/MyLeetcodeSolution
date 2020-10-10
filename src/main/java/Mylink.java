@@ -31,7 +31,7 @@ public class Mylink {
     /**
      *
      * @param index:删除第index个节点
-     * @return
+     *
      */
     public boolean deleteNode(int index) {
         if (index < 1 || index > length()) {

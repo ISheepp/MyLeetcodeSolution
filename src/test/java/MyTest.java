@@ -2,6 +2,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -60,5 +61,6 @@ public class MyTest {
     @Test
     public void test4(){
         //lambda表达式
+        List<String> list = new ArrayList<String>();
     }
 }
