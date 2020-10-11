@@ -63,4 +63,8 @@ public class MyTest {
         //lambda表达式
         List<String> list = new ArrayList<String>();
     }
+    @Test
+    public void test5(){
+
+    }
 }
