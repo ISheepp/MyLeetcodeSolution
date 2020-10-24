@@ -1,0 +1,1 @@
+my InputStream tester

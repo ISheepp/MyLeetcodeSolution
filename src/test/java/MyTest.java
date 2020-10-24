@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import java.lang.reflect.InvocationHandler;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.regex.Matcher;
@@ -60,5 +61,6 @@ public class MyTest {
     @Test
     public void test4(){
         //lambda表达式
+        
     }
 }
